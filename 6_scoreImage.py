@@ -7,7 +7,7 @@ locals().update(importlib.import_module("PARAMETERS").__dict__)
 ####################################
 # Parameters
 ####################################
-imgPath = r"C:/Users/pabuehle/Desktop/newImgs/WIN_20160803_11_48_26_Pro.jpg"
+imgPath = imgDir + "testImages\WIN_20160803_11_48_26_Pro.jpg"
 
 #choose which classifier to use
 classifier = 'svm'
